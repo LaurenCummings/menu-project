@@ -1,4 +1,4 @@
-function Categories() {
+function Categories({filterItems}) {
     return (
         <div>
             Categories
