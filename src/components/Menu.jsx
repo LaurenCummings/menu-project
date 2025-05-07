@@ -1,7 +1,12 @@
-function Menu() {
+function Menu({items}) {
     return (
-        <div>
-            Menu
+        <div className="section-center">
+            {items.map((menuItem) => {
+                const {id, title, img, desc} = menuItem;
+                return <article key={id} className="menu-item">
+                    <img src={img} alt={title} className="photo" />
+                </article>
+            })}
         </div>
     )
 }
