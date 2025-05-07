@@ -1,7 +1,7 @@
 function Categories({filterItems}) {
     return (
-        <div>
-            Categories
+        <div className="btn-container">
+            <button className="filter-btn" onClick={()=>filterItems('breakfast')}>Breakfast</button>
         </div>
     )
 }
