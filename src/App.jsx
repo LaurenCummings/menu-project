@@ -5,11 +5,20 @@ import Categories from './components/Categories';
 import data from './data';
 
 function App() {
+  const [menuItems, setMenuItems] = useState(data);
+  const [categories, setCategories] = useState([]);
 
   return (
-    <div>
-
-    </div>
+    <main>
+      <section className="menu section">
+        <div className="title">
+          <h2>Our menu</h2>
+          <div className="underline"></div>
+        </div>
+        <Categories />
+        <Menu />
+      </section>
+    </main>
   )
 }
 
