@@ -1,3 +1,8 @@
+.menu-item {
+    display: flex;
+    margin-bottom: 40px;
+}
+
 .photo {
     width: 200px;
 }
