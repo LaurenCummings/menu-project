@@ -1,8 +1,18 @@
-function Categories({filterItems}) {
+function Categories({ categories, filterItems }) {
     return (
         <div className="btn-container">
-            <button className="filter-btn" onClick={()=>filterItems('breakfast')}>Breakfast</button>
-            <button className="filter-btn" onClick={()=>filterItems('all')}>All</button>
+            {categories.map((category, index) => {
+                return (
+                    <button 
+                        type="button" 
+                        className="filter-btn" 
+                        key={index}
+                        onClick={()=> filterItems(category)}
+                    >
+                        {category}
+                    </button>
+                );
+            })}
         </div>
     )
 }
