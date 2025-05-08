@@ -1,3 +1,5 @@
+import '../css/Menu.css';
+
 function Menu({items}) {
     return (
         <div className="section-center">
