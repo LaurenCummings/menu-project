@@ -4,9 +4,11 @@ import Menu from './components/Menu';
 import Categories from './components/Categories';
 import data from './data';
 
+const allCategories = ['all',...new Set(data.map((item) => item.category))];
+
 function App() {
   const [menuItems, setMenuItems] = useState(data);
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState(allCategories);
 
   const filterItems = (category) => {
     if (category === 'all') {
