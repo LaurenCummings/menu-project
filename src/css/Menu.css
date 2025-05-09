@@ -21,10 +21,13 @@
 
 header {
     display: flex;
+    border: 2px rgb(163, 103, 35);
+    border-style: none none solid none;
 }
 
 header h4 {
     margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .food-name {
