@@ -9,6 +9,8 @@
 
 .photo {
     width: 200px;
+    border: 3px solid rgb(163, 103, 35);
+    border-radius: 3px;
 }
 
 .item-info {
