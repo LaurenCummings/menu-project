@@ -38,3 +38,7 @@ header h4 {
     margin-left: auto;
     color: rgb(163, 103, 35);
 }
+
+.item-text {
+    font-size: 14px;
+}
