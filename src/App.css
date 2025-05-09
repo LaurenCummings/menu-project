@@ -12,3 +12,14 @@ body {
 .title {
     text-align: center;
 }
+
+.title h2 {
+    margin-bottom: 5px;
+}
+
+.underline {
+    background-color: rgb(163, 103, 35);
+    height: 2px;
+    width: 60px;
+    margin: 0px auto 20px auto;
+}
