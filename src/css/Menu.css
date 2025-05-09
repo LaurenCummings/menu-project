@@ -6,3 +6,7 @@
 .photo {
     width: 200px;
 }
+
+.food-name {
+    text-transform: capitalize;
+}
