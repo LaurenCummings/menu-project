@@ -7,6 +7,10 @@
     width: 200px;
 }
 
+.item-info {
+    margin-left: 20px;
+}
+
 header {
     display: flex;
 }
