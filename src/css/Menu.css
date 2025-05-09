@@ -7,6 +7,14 @@
     width: 200px;
 }
 
+header {
+    display: flex;
+}
+
 .food-name {
     text-transform: capitalize;
+}
+
+.price {
+    margin-left: auto;
 }
