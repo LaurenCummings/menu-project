@@ -1,3 +1,5 @@
+import '../css/Categories.css';
+
 function Categories({ categories, filterItems }) {
     return (
         <div className="btn-container">
