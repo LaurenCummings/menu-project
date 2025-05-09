@@ -7,6 +7,6 @@
 .filter-btn {
     color: rgb(163, 103, 35);
     border: none;
-    background-color: white;
+    background-color: transparent;
     cursor: pointer;
 }
